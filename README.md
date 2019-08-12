@@ -1,31 +1,32 @@
-## Reserve gRPC
+# Reserve gRPC
 
 Other language: 
 ### **[中文](README.zh.md)**
 
-这是我在学习GRPC和Go中编写的微服务的试验项目，它可能不适合直接移植到生产环境使用。 我最初从[Alan Shreve的gRPC缓存服务](https://about.sourcegraph.com/go/grpc-in-production-alan-shreve)中获取了代码。 我对重试和超时功能进行了一些更改。
+This is the project for me to learn writing Microservice in GRPC and Go, and it is not intended for production use. 
+I originally took the code from [Alan Shreve's gRPC cache service](https://about.sourcegraph.com/go/grpc-in-production-alan-shreve)， then made some changes on retry and timeout features.
 
-### 安装和运行
+## Getting Started
 
-#### 安装
+### Installing
 
 ```
 go get github.com/jfeng45/reservegrpc
 ```
 
-运行服务器
+Run Server
 ```
 cd reserveserver
 go run cacheJinServer.go
 ```
-运行客户端
+Run Client
 ```
 cd reserveclient
 go run cacheJinClient.go
 ```
-### 授权
+## License
 
-[MIT](LICENSE.txt) 授权
+[MIT](LICENSE.txt) License
 
 
 
